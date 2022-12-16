@@ -62,3 +62,7 @@ ul {
   list-style: none;
   padding: 0;
 }
+
+.app_wrapper {
+  padding-top: 60px;
+}

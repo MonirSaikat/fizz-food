@@ -26,16 +26,18 @@ function App() {
         <FoodsProvider>
           <Navbar />
 
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/foods" element={<Foods />} />
-            <Route path="/foods/:id" element={<Order />} />
-            <Route path="/sign-up" element={<SignUp />} />
-            <Route path="/sign-in" element={<SignIn />} />
-            <Route element={<PrivatePage />}>
-              <Route path="/cart" element={<Cart />} />
-            </Route>
-          </Routes>
+          <div className="app_wrapper">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/foods" element={<Foods />} />
+              <Route path="/foods/:id" element={<Order />} />
+              <Route path="/sign-up" element={<SignUp />} />
+              <Route path="/sign-in" element={<SignIn />} />
+              <Route element={<PrivatePage />}>
+                <Route path="/cart" element={<Cart />} />
+              </Route>
+            </Routes>
+          </div>
         </FoodsProvider>
 
         <Footer />
