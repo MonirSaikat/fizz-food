@@ -11,6 +11,7 @@ import Order from './pages/Order';
 import FoodsProvider from './context/FoodsProvider';
 import Cart from './pages/Cart';
 import PrivatePage from './pages/PrivatePage';
+import PartnershipPage from './pages/PartnerShip';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
@@ -33,6 +34,7 @@ function App() {
               <Route path="/foods/:id" element={<Order />} />
               <Route path="/sign-up" element={<SignUp />} />
               <Route path="/sign-in" element={<SignIn />} />
+              <Route path='/partnership' element={<PartnershipPage />} />
               <Route element={<PrivatePage />}>
                 <Route path="/cart" element={<Cart />} />
               </Route>
