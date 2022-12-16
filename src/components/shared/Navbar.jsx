@@ -5,7 +5,6 @@ import useFoods from '../../hooks/useFoods';
 import '../../styles/Navbar.css';
 
 function Navbar() {
-  const lcoation = useLocation();
   const { user, logout } = useAuth();
   const { pathname } = useLocation();
   const { cart } = useFoods();
@@ -45,7 +44,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/">Partnership</Link>
+              <Link to="/partnership">Partnership</Link>
             </li>
             <li className="nav-item">
               <Link to="/">About Us</Link>
