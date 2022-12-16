@@ -3,7 +3,7 @@
   padding: 1rem 0;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.8);
   position: fixed;
-  height: 60px;
+  height: var(--navbar-height);;
   top: 0;
   left: 0;
   width: 100%;
