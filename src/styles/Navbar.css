@@ -2,7 +2,12 @@
   background-color: #000;
   padding: 1rem 0;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.8);
-  transition: all 0.8s ease-in;
+  position: fixed;
+  height: 60px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .navbar .nav-item {
@@ -25,18 +30,6 @@
 
 .navbar .navbar-toggler img {
   width: 25px;
-}
-
-.navbar.scrolled {
-  background: #000 !important;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  position: fixed;
-  width: 100%;
-  transition: all 0.8s ease-in;
-  height: 60px;
-  top: 0;
-  left: 0;
-  z-index: 10;
 }
 
 .navbar .navbar-brand {

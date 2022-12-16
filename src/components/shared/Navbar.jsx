@@ -10,19 +10,6 @@ function Navbar() {
   const { pathname } = useLocation();
   const { cart } = useFoods();
 
-  // change the navbar background color when scrolling
-  useEffect(() => {
-    const nav = document.querySelector('.navbar');
-
-    if (lcoation.pathname === '/') {
-      window.addEventListener('scroll', () => {
-        nav.classList.toggle('scrolled', window.scrollY > 0);
-      });
-    } else {
-      nav.classList.add('scrolled');
-    }
-  }, [lcoation]);
-
   useEffect(() => {
     document.querySelector('.navbar-collapse') &&
       document.querySelector('.navbar-collapse').classList.remove('show');
