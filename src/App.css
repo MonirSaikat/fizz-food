@@ -1,3 +1,7 @@
+:root {
+  --navbar-height: 70px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -64,5 +68,5 @@ ul {
 }
 
 .app_wrapper {
-  padding-top: 60px;
+  padding-top: var(--navbar-height);
 }
