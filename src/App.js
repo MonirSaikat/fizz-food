@@ -12,6 +12,7 @@ import FoodsProvider from './context/FoodsProvider';
 import Cart from './pages/Cart';
 import PrivatePage from './pages/PrivatePage';
 import PartnershipPage from './pages/PartnerShip';
+import AboutUsPage from './pages/AboutUs';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './App.css';
@@ -35,6 +36,7 @@ function App() {
               <Route path="/sign-up" element={<SignUp />} />
               <Route path="/sign-in" element={<SignIn />} />
               <Route path='/partnership' element={<PartnershipPage />} />
+              <Route path='/about-us' element={<AboutUsPage />} />
               <Route element={<PrivatePage />}>
                 <Route path="/cart" element={<Cart />} />
               </Route>

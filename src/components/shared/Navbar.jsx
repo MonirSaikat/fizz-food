@@ -47,7 +47,7 @@ function Navbar() {
               <Link to="/partnership">Partnership</Link>
             </li>
             <li className="nav-item">
-              <Link to="/">About Us</Link>
+              <Link to="/about-us">About Us</Link>
             </li>
             <li className="nav-item">
               {!user ? (
