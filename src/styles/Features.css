@@ -1,0 +1,9 @@
+.features h3 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #424242;
+}
+
+.features p {
+  color: rgb(68, 68, 68);
+}
