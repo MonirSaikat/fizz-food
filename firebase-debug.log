@@ -1,0 +1,25 @@
+[debug] [2022-12-20T07:10:30.982Z] ----------------------------------------------------------------------
+[debug] [2022-12-20T07:10:30.985Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\saika\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-12-20T07:10:30.985Z] CLI Version:   11.19.0
+[debug] [2022-12-20T07:10:30.985Z] Platform:      win32
+[debug] [2022-12-20T07:10:30.985Z] Node Version:  v16.16.0
+[debug] [2022-12-20T07:10:30.992Z] Time:          Tue Dec 20 2022 13:10:30 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-12-20T07:10:30.992Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-20T07:10:31.090Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-20T07:10:31.091Z] > authorizing via signed-in user (saikat.moniruzzaman1@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\saika\OneDrive\Desktop\fizz-food
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
