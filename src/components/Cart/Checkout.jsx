@@ -20,7 +20,7 @@ function Checkout() {
     return acc + foodItem.price * food.quantity;
   }, 0);
 
-  const handleToken = () => {
+  const handleToken = (token) => {
     confirmOrder();
   }
 
@@ -54,16 +54,23 @@ function Checkout() {
 
         <StripeCheckout
           token={handleToken}
+          currency='USD'
+          amount={precisionRoundMod(totalPrice ? totalPrice + 10 : 0, 2)}
           stripeKey={process.env.REACT_APP_STRIPE_KEY}
-        />
-        {/* <button
-          className={`btn btn-custom ${
-            !address || !cart.length ? 'disabled' : ''
-          }`}
-          onClick={handleCheckout}
+          allowRememberMe
+          name="FizzFood"
+          description="Online Food Service"
+          image="/favicon.ico"
+          panelLabel="Pay "
         >
-          Pay
-        </button> */}
+          <button
+            className={`btn btn-custom ${
+              !address || !cart.length ? 'disabled' : ''
+            }`}
+          >
+            Pay
+          </button>
+        </StripeCheckout>
       </div>
     </div>
   );
