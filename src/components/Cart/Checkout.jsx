@@ -1,4 +1,5 @@
 import React from 'react';
+import StripeCheckout from 'react-stripe-checkout';
 import useAuth from '../../hooks/useAuth';
 import useFoods from '../../hooks/useFoods';
 import CartItem from './CartItem';
@@ -19,9 +20,9 @@ function Checkout() {
     return acc + foodItem.price * food.quantity;
   }, 0);
 
-  const handleCheckout = () => {
+  const handleToken = () => {
     confirmOrder();
-  };
+  }
 
   return (
     <div className="card checkout">
@@ -51,14 +52,18 @@ function Checkout() {
           <span>${precisionRoundMod(totalPrice ? totalPrice + 10 : 0, 2)}</span>
         </h5>
 
-        <button
+        <StripeCheckout
+          token={handleToken}
+          stripeKey='pk_test_51MGzarHct6TNfeizpPl2Hfd3sWvadawrETgoTbW51J84Zfxp201QMJB08Ja6glts7TOmG8xgULgIsghxZjjAiBYK00tDDMm21L'
+        />
+        {/* <button
           className={`btn btn-custom ${
             !address || !cart.length ? 'disabled' : ''
           }`}
           onClick={handleCheckout}
         >
-          Checkout
-        </button>
+          Pay
+        </button> */}
       </div>
     </div>
   );
