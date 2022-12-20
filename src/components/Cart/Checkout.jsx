@@ -54,7 +54,7 @@ function Checkout() {
 
         <StripeCheckout
           token={handleToken}
-          stripeKey='pk_test_51MGzarHct6TNfeizpPl2Hfd3sWvadawrETgoTbW51J84Zfxp201QMJB08Ja6glts7TOmG8xgULgIsghxZjjAiBYK00tDDMm21L'
+          stripeKey={process.env.REACT_APP_STRIPE_KEY}
         />
         {/* <button
           className={`btn btn-custom ${
