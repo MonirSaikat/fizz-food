@@ -1,12 +1,12 @@
 import { initializeApp } from 'firebase/app';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCWADqHF_gtNokgvuLk6kWYn5z_P7wE3vs',
-  authDomain: 'fizz-food.firebaseapp.com',
-  projectId: 'fizz-food',
-  storageBucket: 'fizz-food.appspot.com',
-  messagingSenderId: '516737292426',
-  appId: '1:516737292426:web:57e44cd48ad589b0f1b573',
+  apiKey: "AIzaSyBzTBRfuZx-PyhVH9nkCOeRbfSjapc7128",
+  authDomain: "fizz-food-7405b.firebaseapp.com",
+  projectId: "fizz-food-7405b",
+  storageBucket: "fizz-food-7405b.appspot.com",
+  messagingSenderId: "882010464592",
+  appId: "1:882010464592:web:fb93685dc813660ef88c55"
 };
 
 export const initFirebase = () => {
