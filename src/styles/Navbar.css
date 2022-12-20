@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #000;
+  background-color: white;
   padding: 1rem 0;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.8);
   position: fixed;
@@ -15,7 +15,9 @@
 }
 
 .navbar a {
-  color: #fff;
+  color: #111;
+  font-size: 14px;
+  text-transform: uppercase;
   transition: 0.3s ease;
 }
 
