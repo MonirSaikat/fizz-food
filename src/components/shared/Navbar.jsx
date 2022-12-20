@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-md">
-      <div className="container-fluid">
+      <div className="container">
         <Link to="/" className="navbar-brand">
           Fizz <span>Food</span>
         </Link>
