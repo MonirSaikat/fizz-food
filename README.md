@@ -1,10 +1,10 @@
 # `Fizz Food` - Web Application
 
-### [Click me to see a live version 🔥](https://fizz-food.web.app/)
+### [Click me to see a live version 🔥](https://fizz-food-7405b.web.app/)
 
 In this beautiful responsive and animation based web application users can create and sign in to their accounts. Can filter a add prefered foods catgories based. Users can edit their cart or remove items from their cart.
 
-I have used google `react`, `context api`, `react-router-dom`, `firebase`[for auth], `localstorage`, `bootstrap` and custom `css`.
+I have used google `react`, `context api`,`stripe-checkout`, `react-router-dom`, `firebase`[for auth], `localstorage`, `bootstrap` and custom `css`.
 
 ## To run this app:
 
